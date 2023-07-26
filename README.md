@@ -1,5 +1,14 @@
 # junit-merge
 
+#  For utility purposes, I have added logic that calculates the some common values present in Junit XML files.
+
+# These are:
+# The total number of tests of all the combined files
+# The total number of failures, errors, and skipped tests of all the combined files
+# The total amount of run-time, calculated by summing the execution time of all the combined files.
+
+# These 5 values are then placed into the of the new combined file.
+
 
 [![CircleCI](https://circleci.com/gh/drazisil/junit-merge.svg?style=shield)](https://circleci.com/gh/drazisil/junit-merge) [![Coverage Status](https://coveralls.io/repos/github/drazisil/junit-merge/badge.svg?branch=master)](https://coveralls.io/github/drazisil/junit-merge?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
